@@ -44,4 +44,3 @@ The notebook is focused on analyzing a dataset related to a **coffee company** u
 - The **Enterprise segment needs strategic intervention** due to **negative revenue trends**.
 - **Seasonal trends should guide marketing efforts**, focusing on Q4 for maximizing sales.
 
-This summary is well-structured for adding to your **GitHub README**. Would you like me to format it for markdown as well?
