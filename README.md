@@ -1,7 +1,5 @@
 # [Project 1: Coffe company data analysis](https://github.com/phdamg/Aircall)
 
-### Summary of the Jupyter Notebook (`Mid term Notebook.ipynb`)
-
 #### **Project Overview**
 The notebook is focused on analyzing a dataset related to a **coffee company** using Python, with the objective of generating insights to aid **business decision-making**. The analysis includes **sales performance across different quarters, regions, and product segments** to recommend whether certain products should be continued or discontinued.
 
