@@ -1,8 +1,49 @@
-# [Project 1: Data Warehousing for Aircall data](https://github.com/phdamg/Aircall)
+# [Project 1: Coffe company data analysis](https://github.com/phdamg/Aircall)
 
-# Project Overview
-The Patient Advisory Team (PAT) at the company advises patients on healthcare products and services through phone calls facilitated by **Aircall**, a cloud-based telephony platform. The board tasked me with building a **data warehouse** to centralize, organize, and analyze PAT performance data. The data warehouse provides insights into key metrics such as call duration, advisor availability, and patient engagement, enabling management to evaluate team performance and operational efficiency.
+### Summary of the Jupyter Notebook (`Mid term Notebook.ipynb`)
 
-# Objectives
-- **Data Centralization**: Integrate raw data from the Aircall API into a structured data warehouse for analysis.
-- **Data Modeling**: Design a scalable schema to store and query key metrics, including
+#### **Project Overview**
+The notebook is focused on analyzing a dataset related to a **coffee company** using Python, with the objective of generating insights to aid **business decision-making**. The analysis includes **sales performance across different quarters, regions, and product segments** to recommend whether certain products should be continued or discontinued.
+
+#### **Key Objectives**
+- Load and preprocess **Coffee_company dataset** using **Pandas**.
+- Perform exploratory data analysis (EDA) to identify key sales trends.
+- Generate insights into **product performance**, **regional sales**, and **segment-based profitability**.
+- Make **data-driven recommendations** for business strategy.
+
+#### **Key Findings**
+- **Total revenue** across all products is **£14.78M**.
+- **Highest sales** were recorded in **Q4 of 2019** with **£4.12M** in total revenue.
+- **France** had the **highest** overall sales, generating **£3.32M**.
+- **Coffee A** was the **best-selling product**, contributing **£4.8M** in revenue.
+- **Coffee B** generated the **lowest revenue**, only **£1.83M** globally.
+- **Government sector sales** were the most profitable, whereas **enterprise segment sales** showed negative revenue.
+
+#### **Project Workflow**
+1. **Data Preparation:**
+   - Loaded dataset using `pandas`.
+   - Cleaned and formatted column names.
+   - Displayed initial rows for preview.
+
+2. **Exploratory Data Analysis (EDA):**
+   - Aggregated **sales figures** by **product, region, and time period**.
+   - Created **quarterly sales trends** to identify seasonal patterns.
+   - Analyzed **revenue contributions by segment** (e.g., Government, Enterprise).
+
+3. **Visualization & Insights:**
+   - Generated **bar charts and line plots** to highlight key sales trends.
+   - Compared **sales performance** between different products and regions.
+   - Evaluated which product lines should be **discontinued or expanded**.
+
+#### **Technologies & Tools Used**
+- **Python** (Pandas, Matplotlib, Seaborn) for data processing & visualization.
+- **Jupyter Notebook** for interactive analysis.
+- **GitHub Repository** for version control and portfolio presentation.
+
+#### **Outcome & Business Recommendations**
+- **Coffee A should be expanded** due to its strong sales performance.
+- **Coffee B should be reconsidered** or **discontinued** due to poor revenue generation.
+- The **Enterprise segment needs strategic intervention** due to **negative revenue trends**.
+- **Seasonal trends should guide marketing efforts**, focusing on Q4 for maximizing sales.
+
+This summary is well-structured for adding to your **GitHub README**. Would you like me to format it for markdown as well?
